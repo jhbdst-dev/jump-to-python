@@ -146,5 +146,5 @@ while True:
     10 % 10 = 0 일 때만 print가 실행됩니다.
     """
     # 9) 주기 제어: 10스텝마다 로그
-    if loop_count% 10 == 0:
-        print(f"[LOG] loop_count={loop_count}, pos=({current_x:.2f},{current_y:.2f}), dist={distance:.3f}, ratio={ratio:.2f}")
+    if loop_count % 10 == 0:
+        print(f"[LOG] loop_count={loop_count}, pos=({current_x:.2f},{current_y:.2f}), distance={distance:.3f}, ratio={ratio:.2f}")
